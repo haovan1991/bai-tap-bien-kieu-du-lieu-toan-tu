@@ -1,0 +1,11 @@
+let inputa;
+let inputb;
+let inputc;
+inputa= prompt('nhập điểm vật lý');
+inputb=prompt('nhập điểm sinh');
+inputc=prompt('nhập điểm hoá');
+let a=parseInt(inputa);
+let b=parseInt(inputb);
+let c=parseInt(inputc);
+let area=(a+b+c)/3;
+document.write("Điểm trung bình là:"+ area);
